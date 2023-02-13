@@ -18,11 +18,14 @@ if($userPuntualmente->iniciar_sesion()){
             case 'operarios':
                 $userPuntualmente->pagOperarios();
                 break;
-            case 'admev':
-                $userPuntualmente->pagAdminEva();
+            case 'crepre':
+                $userPuntualmente->pagcrearPreg();
                 break;
             case 'cerrar':
                 $userPuntualmente->cerrar_sesion();
+                break;
+            case 'lispre':
+                $userPuntualmente->listarPreg();
                 break;
             default:
                 $userPuntualmente->paginaAdmin();

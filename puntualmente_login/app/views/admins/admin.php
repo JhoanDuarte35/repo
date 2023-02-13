@@ -1,3 +1,5 @@
+<?php include_once (__dir__.'/../header/header.php')?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,24 +10,19 @@
     <title>Admin</title>
 </head>
 <body>
-    <div>
-    <h1><?php echo $_SESSION["username"]?></h1>
-    <a href="<?php echo controlador::$rutaAPP?>index.php?action=cerrar">cerrar sesión</a>
-    </div>
-
-    <div id="accordian">
+    <!-- <div id="accordian">
 	<ul>
-		<!-- we will keep this LI open by default -->
+		
 		<li class="active">
 			<h3><span class="icon-tasks"></span>Evaluaciones</h3>
 			<ul>
-				<li><a href="<?php echo controlador::$rutaAPP?>index.php?action=admev">Admin Evaluacion</a></li>
+				<li><a href="<?php //echo controlador::$rutaAPP?>index.php?action=admev">Admin Evaluacion</a></li>
 				<li><a href="#">Crear Evaluacion</a></li>
 				<li><a href="#">Listar Reportes</a></li>
 			</ul>
 		</li>
 	</ul>
-</div>
+</div> -->
 
 <!-- prefix free to deal with vendor prefixes -->
 <script src="http://thecodeplayer.com/uploads/js/prefixfree-1.0.7.js" type="text/javascript" type="text/javascript"></script>

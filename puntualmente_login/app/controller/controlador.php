@@ -17,8 +17,8 @@ class controlador{
         return false;
     }
 
-    public function pagAdminEva(){
-        include_once(__dir__."/../views/test/admin_eva/admin_eva.php");
+    public function pagCrearPreg(){
+        include_once(__dir__."/../views/test/admin_eva/crearPreg.php");
     }
 
     public function paginaAdmin(){
@@ -35,6 +35,10 @@ class controlador{
 
     public function validar(){
         include_once(__dir__."/../views/login/php/validarlogin.php");
+    }
+
+    public function listarPreg(){
+        include_once(__dir__."/../views/test/preguntas/lisPreguntas.php");
     }
 
     function cerrar_sesion(){
